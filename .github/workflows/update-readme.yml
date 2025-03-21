@@ -1,0 +1,44 @@
+name: Update README with GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Executes every hour
+  workflow_dispatch:  # Can also be triggered manually
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch GitHub Stats
+        run: |
+          TOTAL_REPOS=$(curl -s https://api.github.com/users/SirHumza | jq .public_repos)
+          TOTAL_STARS=$(curl -s https://api.github.com/users/SirHumza/repos | jq '[.[] | .stargazers_count] | add')
+          MOST_POPULAR_REPO_NAME=$(curl -s https://api.github.com/users/SirHumza/repos | jq -r 'max_by(.stargazers_count) | .name')
+          MOST_POPULAR_REPO_URL=$(curl -s https://api.github.com/users/SirHumza/repos | jq -r 'max_by(.stargazers_count) | .html_url')
+          MOST_POPULAR_REPO_STARS=$(curl -s https://api.github.com/users/SirHumza/repos | jq -r 'max_by(.stargazers_count) | .stargazers_count')
+
+          echo "TOTAL_REPOS=$TOTAL_REPOS" >> $GITHUB_ENV
+          echo "TOTAL_STARS=$TOTAL_STARS" >> $GITHUB_ENV
+          echo "MOST_POPULAR_REPO_NAME=$MOST_POPULAR_REPO_NAME" >> $GITHUB_ENV
+          echo "MOST_POPULAR_REPO_URL=$MOST_POPULAR_REPO_URL" >> $GITHUB_ENV
+          echo "MOST_POPULAR_REPO_STARS=$MOST_POPULAR_REPO_STARS" >> $GITHUB_ENV
+
+      - name: Update README with stats
+        run: |
+          sed -i "s/{TOTAL_REPOS}/$TOTAL_REPOS/g" README.md
+          sed -i "s/{TOTAL_STARS}/$TOTAL_STARS/g" README.md
+          sed -i "s|{MOST_POPULAR_REPO_NAME}|$MOST_POPULAR_REPO_NAME|g" README.md
+          sed -i "s|{MOST_POPULAR_REPO_URL}|$MOST_POPULAR_REPO_URL|g" README.md
+          sed -i "s/{MOST_POPULAR_REPO_STARS}/$MOST_POPULAR_REPO_STARS/g" README.md
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with latest GitHub stats" || echo "No changes to commit"
+          git push
