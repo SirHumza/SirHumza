@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Prevents conflicts
 
       - name: Fetch GitHub Stats
         id: stats
@@ -68,8 +70,8 @@ jobs:
 
       - name: Commit & Push Changes
         run: |
-          git config --global user.name "SirHumza"
-          git config --global user.email "your-email@example.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Updated README with latest GitHub stats" || exit 0
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SirHumza/SirHumza.git HEAD:main
