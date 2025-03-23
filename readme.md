@@ -21,13 +21,3 @@
 </div>
 
 ###
-
-<h2 align="left">GitHub Stats</h2>
-
-###
-
-<p align="left">
-  🔹 Total Repositories: <b>{TOTAL_REPOS}</b> <br>
-  ⭐ Total Stars: <b>{TOTAL_STARS}</b> <br>
-  🚀 Most Popular Repo: <a href="{MOST_POPULAR_REPO_URL}">{MOST_POPULAR_REPO_NAME}</a> with <b>{MOST_POPULAR_REPO_STARS} stars</b>
-</p>
