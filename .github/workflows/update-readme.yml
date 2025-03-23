@@ -1,9 +1,9 @@
-name: Update README with GitHub Stats
+name: Update GitHub Profile README
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Executes every hour
-  workflow_dispatch:  # Can also be triggered manually
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   update-readme:
@@ -11,34 +11,65 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Fetch GitHub Stats
+        id: stats
         run: |
-          TOTAL_REPOS=$(curl -s https://api.github.com/users/SirHumza | jq .public_repos)
-          TOTAL_STARS=$(curl -s https://api.github.com/users/SirHumza/repos | jq '[.[] | .stargazers_count] | add')
-          MOST_POPULAR_REPO_NAME=$(curl -s https://api.github.com/users/SirHumza/repos | jq -r 'max_by(.stargazers_count) | .name')
-          MOST_POPULAR_REPO_URL=$(curl -s https://api.github.com/users/SirHumza/repos | jq -r 'max_by(.stargazers_count) | .html_url')
-          MOST_POPULAR_REPO_STARS=$(curl -s https://api.github.com/users/SirHumza/repos | jq -r 'max_by(.stargazers_count) | .stargazers_count')
+          REPOS=$(curl -s "https://api.github.com/users/SirHumza/repos" | jq length)
+          STARS=$(curl -s "https://api.github.com/users/SirHumza/repos" | jq '[.[] | .stargazers_count] | add')
+          POPULAR_REPO=$(curl -s "https://api.github.com/users/SirHumza/repos" | jq -r 'max_by(.stargazers_count) | .name')
+          POPULAR_REPO_STARS=$(curl -s "https://api.github.com/users/SirHumza/repos" | jq -r 'max_by(.stargazers_count) | .stargazers_count')
+          POPULAR_REPO_URL="https://github.com/SirHumza/$POPULAR_REPO"
 
-          echo "TOTAL_REPOS=$TOTAL_REPOS" >> $GITHUB_ENV
-          echo "TOTAL_STARS=$TOTAL_STARS" >> $GITHUB_ENV
-          echo "MOST_POPULAR_REPO_NAME=$MOST_POPULAR_REPO_NAME" >> $GITHUB_ENV
-          echo "MOST_POPULAR_REPO_URL=$MOST_POPULAR_REPO_URL" >> $GITHUB_ENV
-          echo "MOST_POPULAR_REPO_STARS=$MOST_POPULAR_REPO_STARS" >> $GITHUB_ENV
+          echo "TOTAL_REPOS=$REPOS" >> $GITHUB_ENV
+          echo "TOTAL_STARS=$STARS" >> $GITHUB_ENV
+          echo "MOST_POPULAR_REPO_NAME=$POPULAR_REPO" >> $GITHUB_ENV
+          echo "MOST_POPULAR_REPO_STARS=$POPULAR_REPO_STARS" >> $GITHUB_ENV
+          echo "MOST_POPULAR_REPO_URL=$POPULAR_REPO_URL" >> $GITHUB_ENV
 
-      - name: Update README with stats
+      - name: Update README.md
         run: |
-          sed -i "s/{TOTAL_REPOS}/$TOTAL_REPOS/g" README.md
-          sed -i "s/{TOTAL_STARS}/$TOTAL_STARS/g" README.md
-          sed -i "s|{MOST_POPULAR_REPO_NAME}|$MOST_POPULAR_REPO_NAME|g" README.md
-          sed -i "s|{MOST_POPULAR_REPO_URL}|$MOST_POPULAR_REPO_URL|g" README.md
-          sed -i "s/{MOST_POPULAR_REPO_STARS}/$MOST_POPULAR_REPO_STARS/g" README.md
+          cat << EOF > README.md
+          <h1 align="left">Hey 👋 What's up?</h1>
 
-      - name: Commit Changes
+          ###
+
+          <p align="left">My name is Humza and I'm a developer from Spain.</p>
+
+          ###
+
+          <h2 align="left">I code with</h2>
+
+          ###
+
+          <div align="left">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
+            <img width="12" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
+            <img width="12" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
+            <img width="12" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
+          </div>
+
+          ###
+
+          <h2 align="left">GitHub Stats</h2>
+
+          ###
+
+          <p align="left">
+            🔹 Total Repositories: <b>${{ env.TOTAL_REPOS }}</b> <br>
+            ⭐ Total Stars: <b>${{ env.TOTAL_STARS }}</b> <br>
+            🚀 Most Popular Repo: <a href="${{ env.MOST_POPULAR_REPO_URL }}">${{ env.MOST_POPULAR_REPO_NAME }}</a> with <b>${{ env.MOST_POPULAR_REPO_STARS }} stars</b>
+          </p>
+          EOF
+
+      - name: Commit & Push Changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "SirHumza"
+          git config --global user.email "your-email@example.com"
           git add README.md
-          git commit -m "Update README with latest GitHub stats" || echo "No changes to commit"
+          git commit -m "Updated README with latest GitHub stats" || exit 0
           git push
