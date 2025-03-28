@@ -27,7 +27,7 @@
 ###
 
 <p align="left">
-  🔹 Total Repositories: <b>2</b> <br>
+  🔹 Total Repositories: <b>3</b> <br>
   ⭐ Total Stars: <b>1</b> <br>
   🚀 Most Popular Repo: <a href="https://github.com/SirHumza/AppInventor-Fusion">AppInventor-Fusion</a> with <b>1 stars</b>
 </p>
