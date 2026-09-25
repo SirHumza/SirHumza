@@ -4,6 +4,8 @@
 **SirHumza/SirHumza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
+> *"Blessed is the one whose own faults keep him busy from the faults of others."*
+
 <h3 align="center">PS4 homebrew tools, game-client mods, and automation scripts.</h3>
 
 <p align="center">
@@ -39,17 +41,12 @@
 | [**orbisRPC**](https://github.com/SirHumza/orbisRPC) | Rich Presence for the PlayStation 4 — bring PS4 activity to Discord. | C, Python, Makefile |
 | [**Badlion-2.0.0**](https://github.com/SirHumza/Badlion-2.0.0) | Functioning source of Badlion 2.0. | Java |
 | [**portfolio**](https://github.com/SirHumza/portfolio) | Personal portfolio site. | HTML, CSS, JS |
-| [**badlion-lunar-latest**](https://github.com/SirHumza/badlion-lunar-latest) | Badlion / Lunar client. | Java |
+
 
 ### 📫 How to Reach Me
 
 - **Discord:** [SirHumza](https://discord.com/users/1383038753236582542)
 - **GitHub:** [@SirHumza](https://github.com/SirHumza)
-- **Email:** SirHumza@users.noreply.github.com
-
-### ⚡ Fun Fact
-
-> _"Blessed is the one whose own faults keep him busy from the faults of others."_
 
 ---
 
