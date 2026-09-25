@@ -3,12 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07070a,50:d36c55,100:07070a&height=220&section=header&text=SirHumza&fontSize=52&fontColor=F8FAFC&animation=fadeIn" alt="header" />
 </p>
 
-<!-- AVATAR -->
-<p align="center">
-  <img src="https://sirhumza.github.io/portfolio/avatar.jpg" width="200" alt="SirHumza" />
-</p>
 
-<!-- TYPING SVG -->
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1200&color=d36c55&center=true&vCenter=true&width=500&lines=PS4+Homebrew+%7C+Game+Client+Mods;Building+things+that+run+on+consoles+and+PCs;Currently+shipping+Badlion+2.0" alt="Typing SVG" />
@@ -67,7 +62,7 @@ PS4 homebrew tools, game-client mods, and automation scripts. I jailbreak PS4s a
 ## 🔥 Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&theme=tokyonight&hide_border=true" alt="SirHumza's GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&theme=transparent&hide_border=true" alt="SirHumza's GitHub Streak" />
 </p>
 
 ---
