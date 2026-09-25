@@ -1,6 +1,6 @@
 ## Hey, I'm SirHumza.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=500&lines=Game+Client+Mods%3BBuilding+things+that+run+on+consoles+and+PCs;Currently+shipping+Badlion+2.0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=500&lines=PS4+Homebrew+%7C+Game+Client+Mods;Building+things+that+run+on+consoles+and+PCs;Currently+shipping+Badlion+2.0)](https://git.io/typing-svg)
 
 <div align="center">
 
@@ -17,6 +17,8 @@
 ---
 
 ### 💻 What I Build
+
+**orbisRPC** — Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console. No PC bridge. [→](https://github.com/SirHumza/orbisRPC)
 
 **Badlion-2.0.0** — Done. Working source of Badlion 2.0. [→](https://github.com/SirHumza/Badlion-2.0.0)
 
