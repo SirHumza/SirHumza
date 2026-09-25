@@ -1,85 +1,64 @@
 <!-- HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07070a,50:d36c55,100:07070a&height=220&section=header&text=SirHumza&fontSize=52&fontColor=F8FAFC&animation=fadeIn" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0D,50:7A1A1A,100:9E2B25&height=200&section=header&text=SirHumza&fontSize=52&fontColor=E9DCCF&animation=fadeIn" alt="header" />
 </p>
 
-
+<!-- TYPING SVG: the quote itself -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1200&color=d36c55&center=true&vCenter=true&width=500&lines=PS4+Homebrew+%7C+Game+Client+Mods;Building+things+that+run+on+consoles+and+PCs;Currently+shipping+Badlion+2.0" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=E9DCCF&center=true&vCenter=true&width=900&lines=Blessed+is+the+one+whose+own+faults+keep+him+busy+from+the+faults+of+others." alt="Typing SVG" />
   </a>
 </p>
 
-<!-- SOCIAL BADGES -->
+<!-- SOCIALS -->
 <p align="center">
   <a href="https://github.com/SirHumza" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-SirHumza-181717?style=flat-square&logo=github&logoColor=white&labelColor=07070a" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-SirHumza-0B0B0D?style=flat-square&logo=github&logoColor=E9DCCF" alt="GitHub" />
   </a>
   <a href="https://discord.com/users/1383038753236582542" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Discord-SirHumza-5865F2?style=flat-square&logo=discord&logoColor=white&labelColor=07070a" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-SirHumza-9E2B25?style=flat-square&logo=discord&logoColor=E9DCCF&labelColor=0B0B0D" alt="Discord" />
   </a>
-  <a href="https://github.com/SirHumza?tab=repositories" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Public_Repos-4-blue?style=flat-square&logo=github&labelColor=07070a" alt="Public Repos" />
+  <a href="https://sirhumza.github.io/portfolio/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Portfolio-sirhumza.github.io-E9DCCF?style=flat-square&logo=firefox&logoColor=0B0B0D&labelColor=9E2B25" alt="Portfolio" />
   </a>
 </p>
 
-<!-- ABOUT -->
 ## About
 
-> *Blessed is the one whose own faults keep him busy from the faults of others.*
-
-PS4 homebrew tools, game-client mods, and automation scripts. I jailbreak PS4s and make Discord Rich Presence run entirely on the console. I also build Minecraft clients and port GTA: San Andreas to WebAssembly.
+PS4 homebrew, game clients, automation. I build stuff that runs on consoles and PCs.
 
 ---
 
-<!-- TECH STACK -->
 ## Tech Stack
 
-**Languages**
-
 <p>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-**Tools & Platforms**
-
-<p>
-  <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/PS4-003791?style=flat-square&logo=playstation&logoColor=white" alt="PS4" />
-  <img src="https://img.shields.io/badge/GoldHEN-FF6B35?style=flat-square&logo=linux&logoColor=white" alt="GoldHEN" />
-  <img src="https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=wasm&logoColor=white" alt="WASM" />
-  <img src="https://img.shields.io/badge/CMake-064F8D?style=flat-square&logo=cmake&logoColor=white" alt="CMake" />
+  <img src="https://img.shields.io/badge/C-0B0B0D?style=flat-square&logo=c&logoColor=E9DCCF" alt="C" />
+  <img src="https://img.shields.io/badge/Java-9E2B25?style=flat-square&logo=coffeescript&logoColor=E9DCCF&labelColor=0B0B0D" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-0B0B0D?style=flat-square&logo=python&logoColor=E9DCCF" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-E9DCCF?style=flat-square&logo=javascript&logoColor=0B0B0D" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-9E2B25?style=flat-square&logo=html5&logoColor=E9DCCF&labelColor=0B0B0D" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-0B0B0D?style=flat-square&logo=css3&logoColor=E9DCCF" alt="CSS3" />
 </p>
 
 ---
 
-<!-- STREAK -->
-## 🔥 Streak
+## Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&theme=transparent&hide_border=true" alt="SirHumza's GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&hide_border=true&background=0B0B0D&ring=9E2B25&fire=9E2B25&currStreakNum=E9DCCF&sideNums=E9DCCF&currStreakLabel=9E2B25&sideLabels=E9DCCF&dates=8A7F72" alt="SirHumza's GitHub Streak" />
 </p>
 
 ---
 
-<!-- PROJECTS -->
 ## Projects
 
 ### orbisRPC
 
-Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console, no PC bridge at runtime. Written in C with Python tooling.
+Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console, no PC bridge at runtime. C + Python.
 
-<p align="center">
+<p>
   <a href="https://github.com/SirHumza/orbisRPC">
-    <img src="https://img.shields.io/badge/orbisRPC-Discord%20Rich%20Presence-ffd800?style=flat-square&logo=playstation&logoColor=black&labelColor=07070a" alt="orbisRPC" />
-  </a>
-  <a href="https://github.com/SirHumza/orbisRPC">
-    <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white&labelColor=07070a" alt="C" />
+    <img src="https://img.shields.io/badge/orbisRPC-Discord_Rich_Presence-9E2B25?style=flat-square&logo=playstation&logoColor=E9DCCF&labelColor=0B0B0D" alt="orbisRPC" />
   </a>
 </p>
 
@@ -87,12 +66,9 @@ Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console
 
 Done. Working source of Badlion 2.0.
 
-<p align="center">
+<p>
   <a href="https://github.com/SirHumza/Badlion-2.0.0">
-    <img src="https://img.shields.io/badge/Badlion-2.0.0-Functioning-blue?style=flat-square&logo=java&logoColor=white&labelColor=07070a" alt="Badlion-2.0.0" />
-  </a>
-  <a href="https://github.com/SirHumza/Badlion-2.0.0">
-    <img src="https://img.shields.io/badge/Language-Java-007396?style=flat-square&logo=java&logoColor=white&labelColor=07070a" alt="Java" />
+    <img src="https://img.shields.io/badge/Badlion_2.0.0-Done-0B0B0D?style=flat-square&logo=java&logoColor=E9DCCF" alt="Badlion-2.0.0" />
   </a>
 </p>
 
@@ -104,5 +80,5 @@ Personal portfolio site. [sirhumza.github.io/portfolio](https://sirhumza.github.
 
 <!-- FOOTER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07070a,50:d36c55,100:07070a&height=150&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9E2B25,50:7A1A1A,100:0B0B0D&height=140&section=footer" alt="footer" />
 </p>
