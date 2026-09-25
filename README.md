@@ -1,12 +1,6 @@
 ## Hey, I'm SirHumza.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=500&lines=PS4+Homebrew+%7C+Game+Client+Mods;Building+things+that+run+on+consoles+and+PCs;Currently+shipping+Badlion+2.0)](https://git.io/typing-svg)
-
-<div align="center">
-
-> ### ❝ *Blessed is the one whose own faults keep him busy from the faults of others.* ❞
-
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=500&lines=Blessed+is+the+one+whose+own+faults+keep+him+busy+from+the+faults+of+others)](https://git.io/typing-svg)
 
 ---
 
