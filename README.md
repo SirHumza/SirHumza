@@ -2,56 +2,17 @@
 
 > *"Blessed is the one whose own faults keep him busy from the faults of others."*
 
-<h3 align="center">Building PS4 homebrew tools, game clients, and whatever I feel like at 3 AM.</h3>
+PS4 stuff, game client mods, and random scripts.
 
-<p align="center">
-  <a href="https://github.com/SirHumza">
-    <img src="https://komarev.com/ghpvc/?username=sirhumza&label=Profile%20views&color=0e75b6&style=flat" alt="sirhumza" />
-  </a>
-</p>
+**orbisRPC** — Discord Rich Presence on PS4 (jailbroken/GoldHEN). Runs on the console, no PC bridge needed.
 
----
+**Badlion-2.0.0** — Working source of Badlion 2.0.
 
-### 🔭 Currently Working On
-
-- **orbisRPC** — Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console, no PC bridge at runtime.
-- **Badlion-2.0.0** — Functioning source of Badlion 2.0.
-
-### 🌱 Currently Learning
-
-- Reverse engineering & console modding
-- WebAssembly & systems programming
-- Automation tooling
-
-### 🔗 Socials
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SirHumza)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1383038753236582542)
+**portfolio** — [sirhumza.github.io/portfolio](https://sirhumza.github.io/portfolio/)
 
 ---
 
-### 🚀 Public Projects
+Discord: SirHumza
+GitHub: [@SirHumza](https://github.com/SirHumza)
 
-| Project | Description | Stack |
-|---|---|---|
-| [**orbisRPC**](https://github.com/SirHumza/orbisRPC) | Rich Presence for the PlayStation 4 — bring PS4 activity to Discord. | C, Python, Makefile |
-| [**Badlion-2.0.0**](https://github.com/SirHumza/Badlion-2.0.0) | Functioning source of Badlion 2.0. | Java |
-| [**portfolio**](https://github.com/SirHumza/portfolio) | Personal portfolio site. | HTML, CSS, JS |
-
-
-### 📫 How to Reach Me
-
-- **Discord:** [SirHumza](https://discord.com/users/1383038753236582542)
-- **GitHub:** [@SirHumza](https://github.com/SirHumza)
-
----
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&theme=radical&hide_border=true" alt="SirHumza's GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Public_Repos-4-blue" alt="Public Repos" />
-  <img src="https://img.shields.io/badge/Stars-%3E10-orange" alt="Stars" />
-  <img src="https://img.shields.io/badge/Languages-5-purple" alt="Languages" />
-</p>
+![SirHumza's GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&theme=radical&hide_border=true)
