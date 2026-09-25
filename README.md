@@ -51,7 +51,11 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SirHumza&show_icons=true&theme=radical&count_private=false" alt="SirHumza's GitHub Stats" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SirHumza&layout=compact&theme=radical&hide=CSS" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&theme=radical&hide_border=true" alt="SirHumza's GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Public_Repos-4-blue" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/Stars-%3E10-orange" alt="Stars" />
+  <img src="https://img.shields.io/badge/Languages-5-purple" alt="Languages" />
 </p>
