@@ -24,18 +24,29 @@
   <img src="https://komarev.com/ghpvc/?username=SirHumza&label=Profile+views&color=9E2B25&style=flat-square" alt="Profile views" />
 </p>
 
+## Terminal
+
+```console
+$ whoami
+SirHumza
+
+$ cat specialties.txt
+PS4 homebrew  ·  Game client mods  ·  Automation scripts
+
+$ pwd
+~/building-stuff-that-runs-on-consoles-and-pcs
+```
+
 ## Tech Stack
 
 <p>
   <img src="https://img.shields.io/badge/C-0B0B0D?style=flat-square&logo=c&logoColor=E9DCCF" alt="C" />
-  <img src="https://img.shields.io/badge/Java-9E2B25?style=flat-square&logo=coffeescript&logoColor=E9DCCF&labelColor=0B0B0D" alt="Java" />
+  <img src="https://img.shields.io/badge/Java-9E2B25?style=flat-square&logo=openjdk&logoColor=E9DCCF&labelColor=0B0B0D" alt="Java" />
   <img src="https://img.shields.io/badge/Python-0B0B0D?style=flat-square&logo=python&logoColor=E9DCCF" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-E9DCCF?style=flat-square&logo=javascript&logoColor=0B0B0D" alt="JavaScript" />
   <img src="https://img.shields.io/badge/HTML5-9E2B25?style=flat-square&logo=html5&logoColor=E9DCCF&labelColor=0B0B0D" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-0B0B0D?style=flat-square&logo=css3&logoColor=E9DCCF" alt="CSS3" />
 </p>
-
----
 
 ## Streak
 
@@ -43,37 +54,28 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&hide_border=true&background=0B0B0D&ring=9E2B25&fire=9E2B25&currStreakNum=E9DCCF&sideNums=E9DCCF&currStreakLabel=9E2B25&sideLabels=E9DCCF&dates=8A7F72" alt="SirHumza's GitHub Streak" />
 </p>
 
----
-
 ## Projects
 
-### orbisRPC
-
-<p>
-  <img src="https://raw.githubusercontent.com/SirHumza/orbisRPC/main/config/icons/logo.png" width="90" alt="orbisRPC logo" />
-</p>
-
-Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console, no PC bridge at runtime. C + Python.
-
-<p>
-  <a href="https://github.com/SirHumza/orbisRPC">
-    <img src="https://img.shields.io/badge/orbisRPC-Discord_Rich_Presence-9E2B25?style=flat-square&logo=playstation&logoColor=E9DCCF&labelColor=0B0B0D" alt="orbisRPC" />
-  </a>
-</p>
-
-### Badlion-2.0.0
-
-<p>
-  <img src="https://raw.githubusercontent.com/decalitredev/badlion-client/main/Badlion.png" width="60" alt="Badlion logo" />
-</p>
-
-Done. Working source of Badlion 2.0.
-
-<p>
-  <a href="https://github.com/SirHumza/Badlion-2.0.0">
-    <img src="https://img.shields.io/badge/Badlion_2.0.0-Done-0B0B0D?style=flat-square&logo=java&logoColor=E9DCCF" alt="Badlion-2.0.0" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="110" align="center">
+      <img src="https://raw.githubusercontent.com/SirHumza/orbisRPC/main/config/icons/logo.png" width="80" alt="orbisRPC logo" />
+    </td>
+    <td>
+      <b>orbisRPC</b> — Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console, no PC bridge at runtime. C + Python.<br />
+      <a href="https://github.com/SirHumza/orbisRPC"><img src="https://img.shields.io/badge/open-source-9E2B25?style=flat-square&logo=playstation&logoColor=E9DCCF&labelColor=0B0B0D" alt="orbisRPC repo" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="110" align="center">
+      <img src="https://raw.githubusercontent.com/decalitredev/badlion-client/main/Badlion.png" width="55" alt="Badlion logo" />
+    </td>
+    <td>
+      <b>Badlion-2.0.0</b> — Done. Working source of Badlion 2.0.<br />
+      <a href="https://github.com/SirHumza/Badlion-2.0.0"><img src="https://img.shields.io/badge/open-source-0B0B0D?style=flat-square&logo=openjdk&logoColor=E9DCCF" alt="Badlion repo" /></a>
+    </td>
+  </tr>
+</table>
 
 ## Snake
 
@@ -82,8 +84,6 @@ Done. Working source of Badlion 2.0.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake-dark.svg" />
 </picture>
-
----
 
 <!-- FOOTER -->
 <p align="center">
