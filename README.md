@@ -21,13 +21,8 @@
   <a href="https://sirhumza.github.io/portfolio/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Portfolio-sirhumza.github.io-E9DCCF?style=flat-square&logo=firefox&logoColor=0B0B0D&labelColor=9E2B25" alt="Portfolio" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=SirHumza&label=Profile+views&color=9E2B25&style=flat-square" alt="Profile views" />
 </p>
-
-## About
-
-PS4 homebrew, game clients, automation. I build stuff that runs on consoles and PCs.
-
----
 
 ## Tech Stack
 
@@ -80,9 +75,13 @@ Done. Working source of Badlion 2.0.
   </a>
 </p>
 
-### portfolio
+## Snake
 
-Personal portfolio site. [sirhumza.github.io/portfolio](https://sirhumza.github.io/portfolio/)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake-dark.svg" />
+</picture>
 
 ---
 
