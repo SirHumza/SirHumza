@@ -20,12 +20,9 @@
 
 ---
 
-### 📊 Stats
+### 🔗 Socials
 
-[![SirHumza's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SirHumza&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SirHumza&layout=compact&theme=tokyonight&hide=CSS&hide_border=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/SirHumza" target="_blank" rel="noreferrer" style="display:inline-block;padding:8px 16px;margin:4px;background:#24292e;color:#fff;border-radius:6px;text-decoration:none;font-family:Inter,sans-serif;font-weight:600;font-size:14px;">GitHub</a>
+<a href="https://discord.com/users/1383038753236582542" target="_blank" rel="noreferrer" style="display:inline-block;padding:8px 16px;margin:4px;background:#5865F2;color:#fff;border-radius:6px;text-decoration:none;font-family:Inter,sans-serif;font-weight:600;font-size:14px;">Discord</a>
 
 ---
-
-Discord: SirHumza · GitHub: [@SirHumza](https://github.com/SirHumza)
