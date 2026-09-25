@@ -1,12 +1,8 @@
-## Hi there 👋
-
-<!--
-**SirHumza/SirHumza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+## Hey, I'm SirHumza.
 
 > *"Blessed is the one whose own faults keep him busy from the faults of others."*
 
-<h3 align="center">PS4 homebrew tools, game-client mods, and automation scripts.</h3>
+<h3 align="center">Building PS4 homebrew tools, game clients, and whatever I feel like at 3 AM.</h3>
 
 <p align="center">
   <a href="https://github.com/SirHumza">
