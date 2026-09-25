@@ -54,6 +54,10 @@ PS4 homebrew, game clients, automation. I build stuff that runs on consoles and 
 
 ### orbisRPC
 
+<p>
+  <img src="https://raw.githubusercontent.com/SirHumza/orbisRPC/main/config/icons/logo.png" width="90" alt="orbisRPC logo" />
+</p>
+
 Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console, no PC bridge at runtime. C + Python.
 
 <p>
@@ -63,6 +67,10 @@ Discord Rich Presence for jailbroken PS4 (GoldHEN). Runs entirely on the console
 </p>
 
 ### Badlion-2.0.0
+
+<p>
+  <img src="https://raw.githubusercontent.com/decalitredev/badlion-client/main/Badlion.png" width="60" alt="Badlion logo" />
+</p>
 
 Done. Working source of Badlion 2.0.
 
