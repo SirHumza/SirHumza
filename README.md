@@ -46,12 +46,21 @@
 <table>
   <tr>
     <td width="110" align="center">
-      <img src="https://raw.githubusercontent.com/SirHumza/orbisRPC/main/config/icons/logo.png" width="80" alt="orbisRPC logo" />
+      <img src="https://raw.githubusercontent.com/SirHumza/orbisRPC/main/config/images/icons/logo.png" width="80" alt="orbisRPC logo" />
     </td>
     <td>
       <b>orbisRPC</b> — Background daemon for the jailbroken PS4 (GoldHEN): posts every game you play to Discord — name, cover art, timer — straight from the console. No lists, no PC at runtime. Pure C, TLS via BearSSL, self-learning and self-updating. <b>v1.0.0</b> shipped.<br />
       <a href="https://github.com/SirHumza/orbisRPC"><img src="https://img.shields.io/badge/open-source-9E2B25?style=flat-square&logo=playstation&logoColor=E9DCCF&labelColor=0B0B0D" alt="orbisRPC repo" /></a>
       <a href="https://github.com/SirHumza/orbisRPC/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/v1.0.0-shipped-0B0B0D?style=flat-square&labelColor=9E2B25&color=E9DCCF" alt="v1.0.0" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="110" align="center">
+      <img src="https://raw.githubusercontent.com/decalitredev/badlion-client/main/Badlion.png" width="55" alt="Badlion logo" />
+    </td>
+    <td>
+      <b>Badlion-2.0.0</b> — Done. Working source of Badlion 2.0.<br />
+      <a href="https://github.com/SirHumza/Badlion-2.0.0"><img src="https://img.shields.io/badge/open-source-0B0B0D?style=flat-square&logo=openjdk&logoColor=E9DCCF" alt="Badlion repo" /></a>
     </td>
   </tr>
   <tr>
