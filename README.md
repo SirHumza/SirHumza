@@ -51,7 +51,7 @@
     <td>
       <b>orbisRPC</b> — Background daemon for the jailbroken PS4 (GoldHEN): posts every game you play to Discord — name, cover art, timer — straight from the console. No lists, no PC at runtime. Pure C, TLS via BearSSL, self-learning and self-updating. <b>v1.0.0</b> shipped.<br />
       <a href="https://github.com/SirHumza/orbisRPC"><img src="https://img.shields.io/badge/open-source-9E2B25?style=flat-square&logo=playstation&logoColor=E9DCCF&labelColor=0B0B0D" alt="orbisRPC repo" /></a>
-      <a href="https://github.com/SirHumza/orbisRPC/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/v1.0.0-shipped-0B0B0D?style=flat-square&labelColor=9E2B25&color=E9DCCF" alt="v1.0.0" /></a>
+      <a href="https://github.com/SirHumza/orbisRPC/releases/tag/1.0.0"><img src="https://img.shields.io/badge/v1.0.0-shipped-0B0B0D?style=flat-square&labelColor=9E2B25&color=E9DCCF" alt="v1.0.0" /></a>
     </td>
   </tr>
   <tr>
