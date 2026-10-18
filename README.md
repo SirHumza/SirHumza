@@ -56,11 +56,21 @@
   </tr>
   <tr>
     <td width="110" align="center">
-      <img src="https://raw.githubusercontent.com/decalitredev/badlion-client/main/Badlion.png" width="55" alt="Badlion logo" />
+      <img src="https://cdn.simpleicons.org/apple/E9DCCF" width="55" alt="opencode-bigsur" />
     </td>
     <td>
-      <b>Badlion-2.0.0</b> — Done. Working source of Badlion 2.0.<br />
-      <a href="https://github.com/SirHumza/Badlion-2.0.0"><img src="https://img.shields.io/badge/open-source-0B0B0D?style=flat-square&logo=openjdk&logoColor=E9DCCF" alt="Badlion repo" /></a>
+      <b>opencode-bigsur</b> — Run <a href="https://github.com/anomalyco/opencode">opencode</a> on macOS 11 Big Sur: an ICU compatibility shim plus a modern SQLite so the official Bun binary loads and runs on 10.16/11 x86_64. <b>v1.19.3</b>.<br />
+      <a href="https://github.com/SirHumza/opencode-bigsur"><img src="https://img.shields.io/badge/open-source-0B0B0D?style=flat-square&logo=apple&logoColor=E9DCCF" alt="opencode-bigsur repo" /></a>
+      <a href="https://github.com/SirHumza/opencode-bigsur/releases/tag/v1.19.3-bigsur"><img src="https://img.shields.io/badge/v1.19.3-shipped-9E2B25?style=flat-square&labelColor=0B0B0D&color=E9DCCF" alt="v1.19.3" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="110" align="center">
+      <img src="https://cdn.simpleicons.org/githubpages/E9DCCF" width="55" alt="portfolio" />
+    </td>
+    <td>
+      <b>portfolio</b> — Personal site, live at <a href="https://sirhumza.github.io/portfolio/">sirhumza.github.io/portfolio</a>.<br />
+      <a href="https://github.com/SirHumza/portfolio"><img src="https://img.shields.io/badge/open-source-9E2B25?style=flat-square&logo=githubpages&logoColor=E9DCCF&labelColor=0B0B0D" alt="portfolio repo" /></a>
     </td>
   </tr>
 </table>
