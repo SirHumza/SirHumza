@@ -23,15 +23,6 @@
 <p>Exploring Minecraft's world RNG through block drops: structure regions, hidden seeds, and the details underneath the game.</p>
 <sub>JAVA · MINECRAFT · RNG</sub>
 </td></tr>
-<tr><td valign="top">
-<h3><a href="https://github.com/SirHumza/goldhen-payload-template">GoldHEN payload template</a></h3>
-<p>A practical payload starting point, with build, loading, and debugging notes learned along the way.</p>
-<sub>PS4 · PAYLOADS · DEVELOPER TOOLS</sub>
-</td><td valign="top">
-<h3><a href="https://github.com/SirHumza/nanodns-pinger">nanoDNS pinger</a></h3>
-<p>A Discord bot that diagnoses broken PS4 Rich Presence and guides members toward a fix.</p>
-<sub>TYPESCRIPT · DISCORD · AUTOMATION</sub>
-</td></tr>
 </table>
 
 **[crypto-bot](https://github.com/SirHumza/crypto-bot)** · Real data, paper money. A Hermes/Ollama experiment with code-enforced risk checks and no broker connection.
@@ -53,7 +44,6 @@ These repositories build on other people's work; upstream credit belongs with th
 
 [Badlion 2.0.0](https://github.com/SirHumza/Badlion-2.0.0) · preservation and repackaging  
 [VCFG](https://github.com/SirHumza/vcfg) · GoldHEN frame generation fork  
-[OpenClaw](https://github.com/SirHumza/openclaw) · personal fork of the upstream assistant project
 
 ---
 
