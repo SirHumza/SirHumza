@@ -50,12 +50,9 @@
 | Project | What it does |
 | --- | --- |
 | [orbisRPC](https://github.com/SirHumza/orbisRPC) | On-console Discord Rich Presence for jailbroken PS4. Game, cover art and timer, no PC bridge. |
-| [orbis-discord](https://github.com/SirHumza/orbis-discord) | Work in progress native Discord client for PS4, built with C99, SDL2 and OpenOrbis. |
-| [ps4-tailscale](https://github.com/SirHumza/ps4-tailscale) | Tailscale networking for jailbroken PS4 payloads. |
 | [randar-189](https://github.com/SirHumza/randar-189) | Minecraft 1.8.9 mod that recovers world RNG and hidden seeds from block drops. |
 | [goldhen-payload-template](https://github.com/SirHumza/goldhen-payload-template) | GoldHEN payload starter with practical build, loading and debugging notes. |
 | [nanodns-pinger](https://github.com/SirHumza/nanodns-pinger) | Discord bot diagnosing broken PS4 game presence and guiding members to a fix. |
-| [opencode-bigsur](https://github.com/SirHumza/opencode-bigsur) | Compatibility shim to run the opencode CLI on macOS 11 Big Sur. |
 | [Badlion-2.0.0](https://github.com/SirHumza/Badlion-2.0.0) | Forked preservation/repackaging of the open-source Badlion Client 2.0.0 release. |
 
 [Portfolio](https://sirhumza.github.io/portfolio/) · [All public repositories](https://github.com/SirHumza?tab=repositories)
