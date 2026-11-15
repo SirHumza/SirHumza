@@ -1,71 +1,61 @@
-<!-- HEADER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,50:38352D,100:C8A63A&height=200&section=header&text=SirHumza&fontSize=52&fontColor=FFFDF5&animation=fadeIn" alt="header" />
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/SirHumza/portfolio/main/avatar-clean.png" width="170" alt="SirHumza's cat mascot, wearing a top hat and gold monocle"></p>
+
+<h1 align="center">SirHumza</h1>
+<p align="center"><b>Console homebrew. Game tools. Built out of curiosity.</b></p>
+<p align="center">I like finding out how things work, then making something useful from what I learn.</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SirHumza/portfolio/main/avatar-clean.png" width="120" alt="SirHumza’s ink-sketch cat mascot with a gold monocle" />
+<a href="https://sirhumza.github.io/portfolio/"><img src="https://img.shields.io/badge/Explore_the_portfolio-D5B54C?style=for-the-badge&logoColor=111111" alt="Explore the portfolio"></a>
+<a href="https://discord.com/users/1383038753236582542"><img src="https://img.shields.io/badge/Discord-111111?style=for-the-badge&logo=discord&logoColor=D5B54C" alt="Discord"></a>
 </p>
 
-<!-- TYPING SVG: the quote itself -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=FFFDF5&center=true&vCenter=true&width=900&lines=Blessed+is+the+one+whose+own+faults+keep+him+busy+from+the+faults+of+others." alt="Typing SVG" />
-  </a>
-</p>
+---
 
-<!-- SOCIALS -->
-<p align="center">
-  <a href="https://github.com/SirHumza" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-SirHumza-111111?style=flat-square&logo=github&logoColor=FFFDF5" alt="GitHub" />
-  </a>
-  <a href="https://discord.com/users/1383038753236582542" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Discord-SirHumza-B38B2D?style=flat-square&logo=discord&logoColor=FFFDF5&labelColor=111111" alt="Discord" />
-  </a>
-  <a href="https://sirhumza.github.io/portfolio/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-sirhumza.github.io-FFFDF5?style=flat-square&logo=firefox&logoColor=111111&labelColor=B38B2D" alt="Portfolio" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=SirHumza&label=Profile+views&color=B38B2D&style=flat-square" alt="Profile views" />
-</p>
+### The workshop
 
-## Tech Stack
+<table>
+<tr><td width="50%" valign="top">
+<h3><a href="https://github.com/SirHumza/orbisRPC">orbisRPC</a></h3>
+<p>Your PS4 activity, on Discord. Game, cover art, and play timer straight from the console, with no PC bridge at runtime.</p>
+<sub>C · PS4 HOMEBREW · DISCORD</sub>
+</td><td width="50%" valign="top">
+<h3><a href="https://github.com/SirHumza/randar-189">Randar 1.8.9</a></h3>
+<p>Exploring Minecraft's world RNG through block drops: structure regions, hidden seeds, and the details underneath the game.</p>
+<sub>JAVA · MINECRAFT · RNG</sub>
+</td></tr>
+<tr><td valign="top">
+<h3><a href="https://github.com/SirHumza/goldhen-payload-template">GoldHEN payload template</a></h3>
+<p>A practical payload starting point, with build, loading, and debugging notes learned along the way.</p>
+<sub>PS4 · PAYLOADS · DEVELOPER TOOLS</sub>
+</td><td valign="top">
+<h3><a href="https://github.com/SirHumza/nanodns-pinger">nanoDNS pinger</a></h3>
+<p>A Discord bot that diagnoses broken PS4 Rich Presence and guides members toward a fix.</p>
+<sub>TYPESCRIPT · DISCORD · AUTOMATION</sub>
+</td></tr>
+</table>
+
+**[crypto-bot](https://github.com/SirHumza/crypto-bot)** · Real data, paper money. A Hermes/Ollama experiment with code-enforced risk checks and no broker connection.
+
+### Tools I work with
 
 <p>
-  <img src="https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=FFFDF5" alt="C" />
-  <img src="https://img.shields.io/badge/Java-B38B2D?style=flat-square&logo=openjdk&logoColor=FFFDF5&labelColor=111111" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=FFFDF5" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-FFFDF5?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-B38B2D?style=flat-square&logo=html5&logoColor=FFFDF5&labelColor=111111" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3&logoColor=FFFDF5" alt="CSS3" />
+<img src="https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=D5B54C" alt="C">
+<img src="https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=D5B54C" alt="Java">
+<img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=D5B54C" alt="Python">
+<img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=D5B54C" alt="JavaScript">
+<img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=D5B54C" alt="TypeScript">
+<img src="https://img.shields.io/badge/PowerShell-111111?style=flat-square" alt="PowerShell">
 </p>
 
-## Streak
+### Forks & explorations
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirHumza&hide_border=true&background=111111&ring=B38B2D&fire=B38B2D&currStreakNum=FFFDF5&sideNums=FFFDF5&currStreakLabel=B38B2D&sideLabels=FFFDF5&dates=AAA19A" alt="SirHumza's GitHub Streak" />
-</p>
+These repositories build on other people's work; upstream credit belongs with their authors.
 
-## Featured work
+[Badlion 2.0.0](https://github.com/SirHumza/Badlion-2.0.0) · preservation and repackaging  
+[VCFG](https://github.com/SirHumza/vcfg) · GoldHEN frame generation fork  
+[OpenClaw](https://github.com/SirHumza/openclaw) · personal fork of the upstream assistant project
 
-| Project | What it does |
-| --- | --- |
-| [orbisRPC](https://github.com/SirHumza/orbisRPC) | On-console Discord Rich Presence for jailbroken PS4. Game, cover art and timer, no PC bridge. |
-| [randar-189](https://github.com/SirHumza/randar-189) | Minecraft 1.8.9 mod that recovers world RNG and hidden seeds from block drops. |
-| [goldhen-payload-template](https://github.com/SirHumza/goldhen-payload-template) | GoldHEN payload starter with practical build, loading and debugging notes. |
-| [nanodns-pinger](https://github.com/SirHumza/nanodns-pinger) | Discord bot diagnosing broken PS4 game presence and guiding members to a fix. |
-| [Badlion-2.0.0](https://github.com/SirHumza/Badlion-2.0.0) | Forked preservation/repackaging of the open-source Badlion Client 2.0.0 release. |
+---
 
-[Portfolio](https://sirhumza.github.io/portfolio/) · [All public repositories](https://github.com/SirHumza?tab=repositories)
-
-## Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/SirHumza/SirHumza/output/github-snake-dark.svg" />
-</picture>
-
-<!-- FOOTER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B38B2D,50:5A513D,100:111111&height=140&section=footer" alt="footer" />
-</p>
+<p align="center"><i>“Blessed is the one whose own faults keep him busy from the faults of others.”</i></p>
+<p align="center"><a href="https://sirhumza.github.io/portfolio/">Portfolio</a> · <a href="https://github.com/SirHumza?tab=repositories">All public repositories</a> · <a href="https://discord.com/users/1383038753236582542">Discord</a></p>
